@@ -7,10 +7,13 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
+import org.springframework.stereotype.Service;
+
 import com.demo.Homework.model.CustomerPurchaseData;
 import com.demo.Homework.model.CustomerRewardPointsResponse;
 import com.demo.Homework.model.CustomerTransactionData;
 
+@Service
 public class RewardsPointServiceImpl implements IRewardsPointService {
 
 	@Override
